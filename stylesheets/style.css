@@ -16,18 +16,6 @@ input[type=text]{
 	box-shadow:1px 1px 2px #CCC inset;
 }
 
-a{
-	text-decoration:none;
-	color:#444;
-	background:#CCC;
-	padding:5px;
-	-moz-border-radius:10px;
-}
-
-a:hover{
-	background:#969696;
-}
-
 /*ids*/
 
 div#todo-main{
@@ -85,4 +73,23 @@ div#todo-toolbar{
 
 .todo-clear{
 	float:right;
+}
+
+.todo-clear a{
+	text-decoration:none;
+	color:#FFF;
+	background:#969696;
+	padding:15px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	-webkit-transition:background 0.8s ease;
+	-moz-transition:background 0.8s ease;
+	-o-transition:background 0.8s ease;
+	-ms-transition:background 0.8s ease;
+	transition:background 0.8s ease;
+}
+
+a:hover{
+	background:#444;
 }
