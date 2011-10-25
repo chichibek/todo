@@ -1,0 +1,88 @@
+body{
+	font-family:arial;
+	font-size:11px;
+	color:#444;
+}
+
+input[type=text]{
+	width:97%;
+	font-family:arial;
+	font-size:24px;
+	color:#444;
+	padding:5px;
+	border:1px solid #969696;
+	-moz-box-shadow:1px 1px 2px #CCC inset;
+	-webkit-box-shadow:1px 1px 2px #CCC inset;
+	box-shadow:1px 1px 2px #CCC inset;
+}
+
+a{
+	text-decoration:none;
+	color:#444;
+	background:#CCC;
+	padding:5px;
+	-moz-border-radius:10px;
+}
+
+a:hover{
+	background:#969696;
+}
+
+/*ids*/
+
+div#todo-main{
+	width:500px;
+	margin:0 auto;
+	border:1px solid #DDD;
+	padding:5px;
+	overflow:hidden;
+	-moz-box-shadow:1px 1px 10px #DDD;
+}
+
+div#todo-main h1{
+	margin:15px 0;
+	text-align:center;
+}
+
+div#todo-form{
+	margin-top:10px;
+}
+
+div#todo-collection ul{
+	list-style:none;
+	margin:10px 0 0 0;
+	padding:0;
+}
+
+div#todo-collection ul li{
+	font-size:18px;
+	border-bottom:1px solid #DDD;
+	padding:10px 0;
+	margin:5px 0;
+}
+
+div#todo-collection ul li:last-child{
+	border:0;
+}
+
+div#todo-toolbar{
+	background:#EEE;
+	overflow:hidden;
+	padding:10px 3px;
+	display:none;
+}
+
+/*classes*/
+
+.todo-check{
+	float:left;
+	margin:5px;
+}
+
+.todo-count{
+	float:left;
+}
+
+.todo-clear{
+	float:right;
+}
